@@ -29,7 +29,7 @@ You are a helpful assistant. Use ONLY the context below to answer the question.
 Break the answer into multiple short sentences.  
 For each sentence, return a JSON object with two keys:
 - "sentence": the sentence text  
-- "citation": the source in the format "<filename>, page <n>"  
+- "citation": the source in the format "page <n>"  
 
 The final output MUST be a valid JSON array.  
 If the answer is not in the context, return: []  
